@@ -1,0 +1,16 @@
+1. Widgets, doodads and fizzbangs. What should we feature, based on web activity, pageviews, purchases, and conversion from ad?
+
+There are a few potential goals for this project. Some of them are:
+a) Maximize total profits. This might mean advertising a more expensive product that has lower conversion, or advertising a cheaper product that gets more clicks but converts to a shopping cart of multiple items. Stats question: Is net revenue up?
+
+b) Move specific inventory. Do we have a lot of fizzbangs that need to get pushed out of a warehouse? It might be worth advertising those even if we’d make slightly more advertising doodads. Stats question: Are fizzbangs selling faster than before?
+
+c) Shifting the brand. Are we breaking into the widget world? It may be worth advertising those even though doodads are our bread and butter. Stats question: Are users buying more widgets as a percentage of total sales?
+
+
+2. Signups have slowed! Compare each of the three steps in the onboarding funnel over time, as well as marketing spend. Also, look at how long people spend on each step. Has one step become too difficult and people quit before finishing? Has marketing spend decreased, so fewer people are in the pipeline from the start?
+
+
+3. Hotel ranking. No information on quality of the hotel? I would find that and add it to the model. You could rank separately for best hotels in each price range. A $49 motel is going to be a lot different than a $299 suite, and has a different clientele. Push hotels with availability to the top, assuming the user input specific dates.
+
+4. Social network churn. Compare length of a user’s visit, and when they stop using the product to how long they have been a user. Are users quitting earlier than they used to? What % of users were quitting three years ago compared to today? 
