@@ -1,0 +1,40 @@
+1. Hottest day and location
+
+SELECT 
+	date,
+	zip,
+	MAX(MaxTemperatureF)
+FROM
+	weather
+
+
+2. Trips starting at each station
+
+SELECT 
+	start_station,
+	COUNT(start_station)
+FROM
+	trips
+GROUP BY
+	start_station
+
+
+3. Shortest trip
+
+SELECT 
+	*,
+	MIN(duration)
+FROM
+	trips
+
+
+4. Average trip duration, by end station
+
+SELECT 
+	end_station,
+	AVG(duration)
+FROM
+	trips
+GROUP BY
+	end_station
+
