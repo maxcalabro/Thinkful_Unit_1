@@ -1,0 +1,87 @@
+1. Three longest trips on rainy days? (Had to look up the answer to find WITH/AS)
+
+WITH rainy AS (
+SELECT 
+	Date
+FROM
+	weather
+WHERE
+	events = 'Rain'
+GROUP BY 1
+)
+
+SELECT
+	trip_id,
+	duration,
+	DATE(start_date) trip_date
+FROM 
+	trips
+JOIN 
+	rainy
+ON 
+	rainy.date = trip_date
+ORDER BY duration DESC
+LIMIT 3
+
+
+2. Which station is empty most often?
+
+SELECT 
+	stations.name,
+	COUNT(*)
+FROM
+	stations
+JOIN
+	status
+ON
+	stations.station_id = status.station_id
+WHERE
+	status.bikes_available = 0
+GROUP BY
+	stations.name
+ORDER BY
+	COUNT(*) DESC LIMIT 1
+
+
+3. Return a list of stations with a count of number of trips starting at that station but ordered by dock count.
+
+SELECT 
+	stations.name,
+	stations.dockcount,
+	COUNT(*) as 'number of trips'
+FROM 
+	stations
+JOIN
+	trips
+ON
+	stations.name = trips.start_station
+GROUP BY 
+	stations.name
+ORDER BY
+	stations.dockcount DESC
+
+
+4. (Challenge) What's the length of the longest trip for each day it rains anywhere?
+
+WITH rainy AS (
+SELECT 
+	Date
+FROM
+	weather
+WHERE
+	events = 'Rain'
+GROUP BY 1
+)
+
+SELECT 
+	rainy.Date,
+	MAX(trips.duration)
+FROM 
+	rainy
+JOIN
+	trips
+ON
+	rainy.Date = DATE(trips.start_date)
+GROUP BY 
+	Date
+
