@@ -1,0 +1,73 @@
+1. What's the most expensive listing? What else can you tell me about the listing?
+
+SELECT 
+	id,
+	price,
+	name,
+	room_type
+FROM 
+	listings_summary
+ORDER BY price DESC LIMIT 10
+
+"18079802"	"10000"	"Test"	"Private room"
+"15850791"	"2000"	"Couch in Portland"	"Shared room"
+"293584"	"1950"	"Venue/Event Space : UNION/PINE"	"Entire home/apt"
+"14606495"	"1000"	"Chuckie's Nest"	"Entire home/apt"
+"296946"	"1000"	"Opal 28 an Event Space"	"Entire home/apt"
+"6867040"	"1000"	"Craftsman with Air Conditioning"	"Entire home/apt"
+"17157749"	"999"	"Cats and Cozy! (NOT A REAL LISTING)"	"Private room"
+"5294426"	"790"	"Cozy Couch and Cats!!!"	"Shared room"
+"11550971"	"700"	"Private Compound with Pool"	"Entire home/apt"
+"205616"	"599"	"Six bedroom Victorian B&B"	"Entire home/apt"
+
+The most expensive listing is a $10,000 per night “Test”. That’s a relief. It looks like the next one is probably also fake, a $2,000 couch. Then we have some real ones (still expensive) which are commercial event spaces.
+
+
+2. What neighborhoods seem to be the most popular?
+
+SELECT 
+	neighbourhood,
+	COUNT(*) listings
+FROM 
+	listings_summary
+GROUP BY neighbourhood
+ORDER BY listings DESC LIMIT 10
+
+"Richmond"		"234"
+"Northwest District"	"165"
+"Concordia"		"150"
+"Buckman"		"145"
+"King"			"134"
+"Hosford-Abernethy"	"118"
+"Mt. Tabor"		"107"
+"Sunnyside"		"103"
+"Boise"			"98"
+"Humboldt"		"93"
+
+The Richmond neighborhood has the most listings. A deeper analysis could also include how many nights are rented out across all listings in each neighborhood.
+
+3. What time of year is the cheapest time to go to your city? What about the busiest?
+
+SELECT 
+	strftime('%m', date) as month,
+	COUNT(*)
+FROM
+	calendar
+WHERE
+	available LIKE 't'
+GROUP BY month
+
+"01"	"48720"
+"02"	"44177"
+"03"	"49217"
+"04"	"40566"
+"05"	"55026"
+"06"	"58392"
+"07"	"53092"
+"08"	"54131"
+"09"	"59986"
+"10"	"49232"
+"11"	"46478"
+"12"	"47846"
+
+This finds when the most availability is. So more people are listing units as available in the summer than the winter. But that doesn’t necessarily mean they’re more full. I’m not actually seeing data anywhere that confirms somebody actually STAYED in the Airbnb rental — only that it was listed as available. I wasn’t able to figure out converting $100.00 into an int/real to be able to do math on it.
