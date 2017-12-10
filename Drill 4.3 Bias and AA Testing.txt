@@ -1,0 +1,18 @@
+1. Testing ad emails for bathing suit company, one version in Feb, one in May.
+
+Potential Biases: People may be more likely to buy a bathing suit in May than Feb because it’s almost summer, or maybe the other way around depending on where they live. 
+
+
+2. Clinic to treat anxiety, people who visit have a higher rate of anxiety than the general population.
+
+Potential Biases: Isn’t that the point of the clinic? To find the people with anxiety and treat them?
+
+
+3. New ad billboard, and see an increase in website visits in the first week.
+
+Potential Biases: Was there anything else happening in the world that week that might also have affected web traffic? Did that increase come from addresses physically close to the new billboard? Perhaps an article came out reviewing your product at the same time.
+
+
+4. Launched a loyalty program but see no change in visits in the first week.
+
+Potential Biases: Perhaps something else was also occurring to balance the effect of the new program. Or, maybe it takes more than a week for people to respond to that type of loyalty program.
