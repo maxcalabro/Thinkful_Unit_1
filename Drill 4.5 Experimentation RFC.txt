@@ -1,0 +1,12 @@
+“A company with work sites in five different countries has sent you data on employee satisfaction rates for workers in Human Resources and workers in Information Technology. Most HR workers are concentrated in three of the countries, while IT workers are equally distributed across worksites. The company requests a report on satisfaction for each job type. You calculate average job satisfaction for HR and for IT and present the report.”
+
+Let’s look at the example of measuring employee satisfaction across multiple locations and multiple departments. 
+
+THE PROBLEM:
+We need a way to look at employee satisfaction data for our HR and IT employees in five different countries.
+
+POTENTIAL SOLUTION:
+We have data collected from each individual, but haven’t found a meaningful way to combine them. Let’s look at departments and locations separately first, looking at IT across all locations, and looking at all the different departments for each location. 
+
+TESTING THE SOLUTION:
+Is there one or more location where employees are particularly happy or unhappy? Is there a noticeable difference between IT and HR employees? What might be possible causes of these differences? Looking closer, are there even specific teams that have substantially different satisfaction levels? Depending on what the data show, we may need to look at specific differences to root out what’s causing variety in satisfaction.
