@@ -4,11 +4,11 @@ Two versions: Have two groups of people: people who take the supplement, people 
 
 Sample: Make sure the groups are large enough and randomly distributed.
 
-Hypothesis: The new supplement helps people sleep better!
+Hypothesis: The new supplement increases the sleep time of participants by 10%. 
 
-Outcomes: Key metric to measure: did people sleep better? Need to define this precisely. Is it based on hours of sleep? Self-reported sleep quality? An app that measures your sleep? Does that limit who can participate in the study?
+Outcomes: Key metric to measure: did people sleep more? How do we measure this accurately? Do we have an app that measures your sleep, or survey participants? Does that limit who can participate in the study, or the quality of the responses?
 
-Other Variables Measured: Did anything else change on the supplement besides sleep? Did it have side effects on appetite, mood, alertness, etc, etc, etc? 
+Other Variables Measured: Did anything else change on the supplement besides length of sleep? Did it have side effects on appetite, mood, alertness, etc, etc, etc? Did participants wake up more or less in the night? Did it take them less/more time to fall asleep?
 
 
 2. Will new uniforms help a gym’s business? (For staff, I assume)
@@ -17,11 +17,11 @@ Two versions: If the gym has multiple locations, switch to the new uniforms at a
 
 Sample: Some gyms stay with old uniforms, some switch to the new ones. It would be good to make these locations randomly distributed around the service area as much as possible, as different demographics may respond differently to the uniforms. 
 
-Hypothesis: The new uniforms increase membership by 2%.
+Hypothesis: The new uniforms will increase profits by 5%.
 
-Outcomes: Key Metric: Did membership go up? Specifically, did it increase more or less than membership at other gyms, taking into account how membership was related between these two gyms before the switch. 
+Outcomes: Key Metric: Did profits go up for the gyms participating? 
 
-Other Variables Measured: Did anything else happen? More/less churn? Staff happier? Change in some other kind of sales?
+Other Variables Measured: Did anything else happen? More/less churn? Staff happier? Change in some other kind of sales? What metrics drove the change in profits? More membership sign-ups? 
 
 
 3. Will a new homepage improve my online exotic pet rental business?
@@ -30,9 +30,9 @@ Two versions: The old homepage and the new homepage.
 
 Sample: Randomly show some people the old one and some people the new one. Maybe by summing all the digits in their IP address, diverting every tenth visitor, etc.
 
-Hypothesis: The new one is better! It converts more people to rent pets.
+Hypothesis: The new website drives a 5% increase in profits.
 
-Outcomes: Key Metric: How much revenue does the website produce? Is the new one doing better than the old one? 
+Outcomes: Key Metric: How much revenue does the new website produce compared to the old one? Is this due exclusively to increased pet rentals? 
 
 Other Variables Measured: What else happened? Did people stay on the website longer? Other intermediate variables that might be noticeable? If you have ads on the website, did your ad revenue change? How does the SEO compare?
 
@@ -43,8 +43,8 @@ Two versions: The regular old email, and the new one with the PLEASE READ email 
 
 Sample: Randomly selected email recipients. If you’re sending enough emails, this should be easy.
 
-Hypothesis: You’ll have a high open rate for emails that say PLEASE READ. 
+Hypothesis: Emails that say PLEASE READ will convert 10% more subscribers to buy something from the website. 
 
-Outcomes: As phrased in the question, the key metric would be whether people have opened the email. Opening an email, however, doesn’t necessarily do much. Did click-through rate increase? 
+Outcomes: Did click-through rate increase, and did people purchase? 
 
-Other Variables Measured: What else happened? Did people start unsubscribing because the emails are too annoying? If you’re selling something, did sales change for the new group? 
+Other Variables Measured: What else happened? Did people start unsubscribing because the emails are too annoying? Did email open rate change, and did that correspond to more clicks? 

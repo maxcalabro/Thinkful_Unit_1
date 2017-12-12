@@ -1,12 +1,13 @@
 “A company with work sites in five different countries has sent you data on employee satisfaction rates for workers in Human Resources and workers in Information Technology. Most HR workers are concentrated in three of the countries, while IT workers are equally distributed across worksites. The company requests a report on satisfaction for each job type. You calculate average job satisfaction for HR and for IT and present the report.”
 
-Let’s look at the example of measuring employee satisfaction across multiple locations and multiple departments. 
+
+After analyzing the data, we find that one location (’Sadlandia’) have significantly lower satisfaction across both departments than the average. 
 
 THE PROBLEM:
-We need a way to look at employee satisfaction data for our HR and IT employees in five different countries.
+Can we increase satisfaction in Sadlandia so it is on par with the other locations? Having lower satisfaction increases churn and lowers productivity. Are there specific practices or policies in this location that might be lowering satisfaction? Can we get any data on whether the issue may be due to the population our workforce is drawn from, rather than our policies in particular? If so, can we counteract that in some way?
 
 POTENTIAL SOLUTION:
-We have data collected from each individual, but haven’t found a meaningful way to combine them. Let’s look at departments and locations separately first, looking at IT across all locations, and looking at all the different departments for each location. 
+Our office in Sadlandia is situated in a part of the city with few amenities. There aren’t good places to get lunch or walk on breaks. Perhaps we can improve satisfaction by making food and break space more available to employees. There is evidence that this has worked for other companies. More concretely, we will provide unlimited snacks to employees in multiple places around the office and see if reported satisfaction rises by at least 0.3 on a 5-point scale.
 
 TESTING THE SOLUTION:
-Is there one or more location where employees are particularly happy or unhappy? Is there a noticeable difference between IT and HR employees? What might be possible causes of these differences? Looking closer, are there even specific teams that have substantially different satisfaction levels? Depending on what the data show, we may need to look at specific differences to root out what’s causing variety in satisfaction.
+The experiment will consist of a one-month trial with free healthy snacks around the office. Satisfaction surveys will be given before and after the trial (and hopefully have been given consistently thus far, so we can compare to previous years at the same time of year). At the risk of excluding some employees from a new perk, the snacks will be made available to everyone and framed as a “wellness month” to help prevent people from expecting snacks indefinitely into the future. At the end of the trial, survey results will be analyzed. If satisfaction increases by 0.3 points, the program will be continued indefinitely into the future. If it is that successful, we may also consider rolling it our company-wide. 
